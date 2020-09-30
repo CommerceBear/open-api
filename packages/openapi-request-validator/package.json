@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/openapi-request-validator",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "Validate request properties against an OpenAPI spec.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,10 +29,10 @@
   },
   "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-request-validator#readme",
   "dependencies": {
+    "@commercebear/openapi-jsonschema-parameters": "^7.1.0-alpha.0",
+    "@commercebear/openapi-types": "^7.1.0-alpha.0",
     "ajv": "^6.5.4",
     "content-type": "^1.0.4",
-    "@commercebear/openapi-jsonschema-parameters": "^7.0.1",
-    "@commercebear/openapi-types": "^7.0.1",
     "ts-log": "^2.1.4"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/express-openapi",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "An unopinionated OpenAPI framework for express",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,9 +29,9 @@
   },
   "homepage": "https://github.com/commercebear/open-api/tree/master/packages/express-openapi#readme",
   "dependencies": {
-    "express-normalize-query-params-middleware": "^0.5.0",
-    "@commercebear/openapi-framework": "^7.0.1",
-    "@commercebear/openapi-types": "^7.0.1"
+    "@commercebear/openapi-framework": "^7.1.0-alpha.0",
+    "@commercebear/openapi-types": "^7.1.0-alpha.0",
+    "express-normalize-query-params-middleware": "^0.5.0"
   },
   "devDependencies": {
     "@types/ajv": "^1.0.0",

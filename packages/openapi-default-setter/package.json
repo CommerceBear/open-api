@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/openapi-default-setter",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "Sets default values in request properties according to defaults defined in openapi parameter lists.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-default-setter#readme",
   "dependencies": {
-    "@commercebear/openapi-types": "^7.0.1"
+    "@commercebear/openapi-types": "^7.1.0-alpha.0"
   }
 }

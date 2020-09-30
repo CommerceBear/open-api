@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/fetch-openapi",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "Client SDK generator for openapi documents using fetch.",
   "main": "index.js",
   "bin": {

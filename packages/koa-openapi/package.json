@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/koa-openapi",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "An unopinionated OpenAPI framework for koa",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/commercebear/open-api/tree/master/packages/koa-openapi#readme",
   "dependencies": {
-    "@commercebear/openapi-framework": "^7.0.1"
+    "@commercebear/openapi-framework": "^7.1.0-alpha.0"
   },
   "devDependencies": {
     "@types/koa": "2.11.3",

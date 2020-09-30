@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/openapi-jsonschema-parameters",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "Converts openapi parameters to a jsonschema format.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-jsonschema-parameters#readme",
   "dependencies": {
-    "@commercebear/openapi-types": "^7.0.1"
+    "@commercebear/openapi-types": "^7.1.0-alpha.0"
   }
 }

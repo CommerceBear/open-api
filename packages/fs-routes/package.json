@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/fs-routes",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "Scan a filesystem for route files.",
   "author": "Joseph Spencer",
   "main": "./dist/index.js",

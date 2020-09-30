@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/openapi-security-handler",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "A library to process OpenAPI security definitions in parallel.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-security-handler#readme",
   "dependencies": {
-    "@commercebear/openapi-types": "^7.0.1"
+    "@commercebear/openapi-types": "^7.1.0-alpha.0"
   }
 }

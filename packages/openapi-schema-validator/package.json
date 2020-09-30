@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/openapi-schema-validator",
-  "version": "7.0.1",
+  "version": "7.1.0-alpha.0",
   "description": "A validator for OpenAPI documents.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,9 +29,9 @@
   },
   "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-schema-validator#readme",
   "dependencies": {
+    "@commercebear/openapi-types": "^7.1.0-alpha.0",
     "ajv": "^6.5.2",
     "lodash.merge": "^4.6.1",
-    "@commercebear/openapi-types": "^7.0.1",
     "swagger-schema-official": "2.0.0-bab6bed"
   }
 }
