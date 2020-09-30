@@ -83,7 +83,6 @@ interface OpenAPIFrameworkArgs {
   apiDoc: OpenAPIV2.Document | OpenAPIV3.Document | string;
   customFormats?: { [format: string]: (arg: any) => boolean };
   dependencies?: { [service: string]: any };
-  enableObjectCoercion?: boolean;
   errorTransformer?: OpenAPIErrorTransformer;
   externalSchemas?: { string: IJsonSchema };
   pathSecurity?: PathSecurityTuple[];

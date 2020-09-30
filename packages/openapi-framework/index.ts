@@ -71,7 +71,6 @@ export default class OpenAPIFramework implements IOpenAPIFramework {
   public readonly name;
   private customFormats;
   private dependencies;
-  private enableObjectCoercion;
   private errorTransformer;
   private externalSchemas;
   private originalApiDoc;
@@ -132,7 +131,6 @@ export default class OpenAPIFramework implements IOpenAPIFramework {
       );
     }
 
-    this.enableObjectCoercion = !!args.enableObjectCoercion;
     this.originalApiDoc = handleYaml(handleFilePath(args.apiDoc));
     this.apiDoc = copy(this.originalApiDoc);
     this.basePaths = this.apiDoc.openapi
@@ -505,7 +503,6 @@ export default class OpenAPIFramework implements IOpenAPIFramework {
                   extensionBase: `x-${this.name}-coercion`,
                   loggingKey: `${this.name}-coercion`,
                   parameters: methodParameters,
-                  enableObjectCoercion: this.enableObjectCoercion,
                 });
 
                 operationContext.features.coercer = coercer;
