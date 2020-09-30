@@ -1,6 +1,6 @@
 {
   "name": "@commercebear/openapi-request-coercer",
-  "version": "7.1.0-alpha.0",
+  "version": "7.1.0-alpha.1",
   "description": "Coerce request properties according to an openapi parameter list.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
