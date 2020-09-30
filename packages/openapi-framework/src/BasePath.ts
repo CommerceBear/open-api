@@ -1,4 +1,4 @@
-import { OpenAPIV3 } from 'openapi-types';
+import { OpenAPIV3 } from '@commercebear/openapi-types';
 import { URL } from 'url';
 export default class BasePath {
   public readonly variables: { [key: string]: { enum: string[] } } = {};

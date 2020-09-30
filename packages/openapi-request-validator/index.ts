@@ -1,6 +1,6 @@
 import * as Ajv from 'ajv';
-import { convertParametersToJSONSchema } from 'openapi-jsonschema-parameters';
-import { IJsonSchema, OpenAPI, OpenAPIV3 } from 'openapi-types';
+import { convertParametersToJSONSchema } from '@commercebear/openapi-jsonschema-parameters';
+import { IJsonSchema, OpenAPI, OpenAPIV3 } from '@commercebear/openapi-types';
 import { dummyLogger, Logger } from 'ts-log';
 const contentTypeParser = require('content-type');
 const LOCAL_DEFINITION_REGEX = /^#\/([^\/]+)\/([^\/]+)$/;

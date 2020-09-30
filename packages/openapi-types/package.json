@@ -1,5 +1,5 @@
 {
-  "name": "openapi-types",
+  "name": "@commercebear/openapi-types",
   "version": "7.0.1",
   "description": "Types for OpenAPI documents.",
   "main": "./dist/index.js",
@@ -7,6 +7,9 @@
   "scripts": {
     "prepare": "../../bin/tsc",
     "test-watch": "../../bin/tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "openapi",
@@ -16,9 +19,9 @@
   ],
   "author": "Joseph Spencer",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aopenapi-types"
+    "url": "https://github.com/commercebear/open-api/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aopenapi-types"
   },
-  "repository": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-types",
-  "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-types#readme",
+  "repository": "https://github.com/commercebear/open-api",
+  "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-types#readme",
   "license": "MIT"
 }

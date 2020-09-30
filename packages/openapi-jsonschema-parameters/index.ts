@@ -1,4 +1,4 @@
-import { IJsonSchema, OpenAPI, OpenAPIV2, OpenAPIV3 } from 'openapi-types';
+import { IJsonSchema, OpenAPI, OpenAPIV2, OpenAPIV3 } from '@commercebear/openapi-types';
 
 export interface OpenAPIParametersAsJSONSchema {
   body?: IJsonSchema;

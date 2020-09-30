@@ -1,5 +1,5 @@
 {
-  "name": "openapi-request-validator",
+  "name": "@commercebear/openapi-request-validator",
   "version": "7.0.1",
   "description": "Validate request properties against an OpenAPI spec.",
   "main": "./dist/index.js",
@@ -13,7 +13,10 @@
     "test-watch": "../../bin/tsc && ../../bin/mocha --watch-extensions ts -w",
     "test": "../../bin/mocha"
   },
-  "repository": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-request-validator",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "https://github.com/commercebear/open-api",
   "keywords": [
     "openapi",
     "validator",
@@ -22,14 +25,14 @@
   "author": "Joseph Spencer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues"
+    "url": "https://github.com/commercebear/open-api/issues"
   },
-  "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-request-validator#readme",
+  "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-request-validator#readme",
   "dependencies": {
     "ajv": "^6.5.4",
     "content-type": "^1.0.4",
-    "openapi-jsonschema-parameters": "^7.0.1",
-    "openapi-types": "^7.0.1",
+    "@commercebear/openapi-jsonschema-parameters": "^7.0.1",
+    "@commercebear/openapi-types": "^7.0.1",
     "ts-log": "^2.1.4"
   }
 }

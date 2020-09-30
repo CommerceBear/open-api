@@ -1,5 +1,5 @@
 {
-  "name": "fetch-openapi",
+  "name": "@commercebear/fetch-openapi",
   "version": "7.0.1",
   "description": "Client SDK generator for openapi documents using fetch.",
   "main": "index.js",
@@ -11,7 +11,10 @@
     "test-watch": "../../bin/mocha -w ./test/*.js",
     "test": "../../bin/mocha ./test/**/*.spec.js"
   },
-  "repository": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/fetch-openapi",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "https://github.com/commercebear/open-api",
   "keywords": [
     "fetch",
     "openapi",
@@ -21,9 +24,9 @@
   "author": "Kogo Software LLC",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues"
+    "url": "https://github.com/commercebear/open-api/issues"
   },
-  "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/fetch-openapi#readme",
+  "homepage": "https://github.com/commercebear/open-api/tree/master/packages/fetch-openapi#readme",
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "5.0.0",

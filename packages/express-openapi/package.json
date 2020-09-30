@@ -1,5 +1,5 @@
 {
-  "name": "express-openapi",
+  "name": "@commercebear/express-openapi",
   "version": "7.0.1",
   "description": "An unopinionated OpenAPI framework for express",
   "main": "./dist/index.js",
@@ -13,7 +13,10 @@
     "test-watch": "../../bin/tsc && ../../bin/mocha --watch-extensions ts -w",
     "test": "../../bin/mocha"
   },
-  "repository": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/express-openapi",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "https://github.com/commercebear/open-api",
   "keywords": [
     "openapi",
     "swagger",
@@ -22,13 +25,13 @@
   "author": "Joseph Spencer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aexpress-openapi"
+    "url": "https://github.com/commercebear/open-api/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Aexpress-openapi"
   },
-  "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/express-openapi#readme",
+  "homepage": "https://github.com/commercebear/open-api/tree/master/packages/express-openapi#readme",
   "dependencies": {
     "express-normalize-query-params-middleware": "^0.5.0",
-    "openapi-framework": "^7.0.1",
-    "openapi-types": "^7.0.1"
+    "@commercebear/openapi-framework": "^7.0.1",
+    "@commercebear/openapi-types": "^7.0.1"
   },
   "devDependencies": {
     "@types/ajv": "^1.0.0",

@@ -1,4 +1,4 @@
-import { OpenAPI } from 'openapi-types';
+import { OpenAPI } from '@commercebear/openapi-types';
 import { dummyLogger, Logger } from 'ts-log';
 
 export interface IOpenAPIRequestCoercer {

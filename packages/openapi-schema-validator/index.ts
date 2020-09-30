@@ -2,7 +2,7 @@ import * as Ajv from 'ajv';
 const openapi2Schema = require('swagger-schema-official/schema.json');
 const openapi3Schema = require('./resources/openapi-3.0.json');
 const merge = require('lodash.merge');
-import { IJsonSchema, OpenAPI } from 'openapi-types';
+import { IJsonSchema, OpenAPI } from '@commercebear/openapi-types';
 
 export interface IOpenAPISchemaValidator {
   /**

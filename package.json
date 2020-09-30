@@ -1,5 +1,5 @@
 {
-  "name": "@open-api/open-api",
+  "name": "@commercebear/open-api",
   "version": "0.0.0",
   "description": "Various packages to build OpenAPI APIs in node",
   "main": "index.js",
@@ -13,9 +13,12 @@
     "lint": "tslint -c tslint.json './packages/**/*.[j,t]s'",
     "test": "lerna run test"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kogosoftwarellc/open-api.git"
+    "url": "git+https://github.com/commercebear/open-api.git"
   },
   "keywords": [
     "openapi",
@@ -24,9 +27,9 @@
   "author": "Joseph Spencer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues"
+    "url": "https://github.com/commercebear/open-api/issues"
   },
-  "homepage": "https://github.com/kogosoftwarellc/open-api#readme",
+  "homepage": "https://github.com/commercebear/open-api#readme",
   "devDependencies": {
     "@types/mocha": "^7.0.0",
     "@types/node": "14.0.4",

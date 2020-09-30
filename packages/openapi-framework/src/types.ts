@@ -1,12 +1,12 @@
-import { IOpenAPIDefaultSetter } from 'openapi-default-setter';
-import { IOpenAPIRequestCoercer } from 'openapi-request-coercer';
-import { IOpenAPIRequestValidator } from 'openapi-request-validator';
-import { IOpenAPIResponseValidator } from 'openapi-response-validator';
+import { IOpenAPIDefaultSetter } from '@commercebear/openapi-default-setter';
+import { IOpenAPIRequestCoercer } from '@commercebear/openapi-request-coercer';
+import { IOpenAPIRequestValidator } from '@commercebear/openapi-request-validator';
+import { IOpenAPIResponseValidator } from '@commercebear/openapi-response-validator';
 import {
   IOpenAPISecurityHandler,
   SecurityHandlers,
-} from 'openapi-security-handler';
-import { IJsonSchema, OpenAPI, OpenAPIV2, OpenAPIV3 } from 'openapi-types';
+} from '@commercebear/openapi-security-handler';
+import { IJsonSchema, OpenAPI, OpenAPIV2, OpenAPIV3 } from '@commercebear/openapi-types';
 import { Logger } from 'ts-log';
 import BasePath from './BasePath';
 export {

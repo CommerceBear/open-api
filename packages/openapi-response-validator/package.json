@@ -1,5 +1,5 @@
 {
-  "name": "openapi-response-validator",
+  "name": "@commercebear/openapi-response-validator",
   "version": "7.0.1",
   "description": "Validate a response according to an openapi schema.",
   "main": "./dist/index.js",
@@ -13,7 +13,10 @@
     "test-watch": "../../bin/tsc && ../../bin/mocha --watch-extensions ts -w",
     "test": "../../bin/mocha"
   },
-  "repository": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-response-validator",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "https://github.com/commercebear/open-api",
   "keywords": [
     "openapi",
     "validation",
@@ -23,11 +26,11 @@
   "author": "Joseph Spencer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues"
+    "url": "https://github.com/commercebear/open-api/issues"
   },
-  "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-response-validator#readme",
+  "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-response-validator#readme",
   "dependencies": {
     "ajv": "^6.5.4",
-    "openapi-types": "^7.0.1"
+    "@commercebear/openapi-types": "^7.0.1"
   }
 }

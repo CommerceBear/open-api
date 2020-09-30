@@ -1,5 +1,5 @@
 {
-  "name": "openapi-schema-validator",
+  "name": "@commercebear/openapi-schema-validator",
   "version": "7.0.1",
   "description": "A validator for OpenAPI documents.",
   "main": "./dist/index.js",
@@ -13,7 +13,10 @@
     "test-watch": "../../bin/tsc && ../../bin/mocha --watch-extensions ts -w",
     "test": "../../bin/mocha"
   },
-  "repository": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-schema-validator",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "https://github.com/commercebear/open-api",
   "keywords": [
     "openapi",
     "schema",
@@ -22,13 +25,13 @@
   "author": "Joseph Spencer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues"
+    "url": "https://github.com/commercebear/open-api/issues"
   },
-  "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/openapi-schema-validator#readme",
+  "homepage": "https://github.com/commercebear/open-api/tree/master/packages/openapi-schema-validator#readme",
   "dependencies": {
     "ajv": "^6.5.2",
     "lodash.merge": "^4.6.1",
-    "openapi-types": "^7.0.1",
+    "@commercebear/openapi-types": "^7.0.1",
     "swagger-schema-official": "2.0.0-bab6bed"
   }
 }

@@ -1,11 +1,11 @@
-import fsRoutes from 'fs-routes';
-import OpenAPIDefaultSetter from 'openapi-default-setter';
-import OpenAPIRequestCoercer from 'openapi-request-coercer';
-import OpenAPIRequestValidator from 'openapi-request-validator';
-import OpenAPIResponseValidator from 'openapi-response-validator';
-import OpenAPISchemaValidator from 'openapi-schema-validator';
-import OpenAPISecurityHandler from 'openapi-security-handler';
-import { OpenAPI, OpenAPIV2, OpenAPIV3 } from 'openapi-types';
+import fsRoutes from '@commercebear/fs-routes';
+import OpenAPIDefaultSetter from '@commercebear/openapi-default-setter';
+import OpenAPIRequestCoercer from '@commercebear/openapi-request-coercer';
+import OpenAPIRequestValidator from '@commercebear/openapi-request-validator';
+import OpenAPIResponseValidator from '@commercebear/openapi-response-validator';
+import OpenAPISchemaValidator from '@commercebear/openapi-schema-validator';
+import OpenAPISecurityHandler from '@commercebear/openapi-security-handler';
+import { OpenAPI, OpenAPIV2, OpenAPIV3 } from '@commercebear/openapi-types';
 import { Logger } from 'ts-log';
 import BasePath from './src/BasePath';
 import {
@@ -50,9 +50,9 @@ import {
   withNoDuplicates,
 } from './src/util';
 
-export { OpenAPIRequestValidatorError } from 'openapi-request-validator';
-export { OpenAPIResponseValidatorError } from 'openapi-response-validator';
-export { SecurityHandlers } from 'openapi-security-handler';
+export { OpenAPIRequestValidatorError } from '@commercebear/openapi-request-validator';
+export { OpenAPIResponseValidatorError } from '@commercebear/openapi-response-validator';
+export { SecurityHandlers } from '@commercebear/openapi-security-handler';
 
 export {
   BasePath,

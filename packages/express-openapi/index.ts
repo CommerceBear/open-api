@@ -7,8 +7,8 @@ import OpenAPIFramework, {
   OpenAPIRequestValidatorError,
   OpenAPIResponseValidatorError,
   SecurityHandlers,
-} from 'openapi-framework';
-import { OpenAPI, OpenAPIV3 } from 'openapi-types';
+} from '@commercebear/openapi-framework';
+import { OpenAPI, OpenAPIV3 } from '@commercebear/openapi-types';
 const CASE_SENSITIVE_PARAM_PROPERTY = 'x-express-openapi-case-sensitive';
 const normalizeQueryParamsMiddleware = require('express-normalize-query-params-middleware');
 const loggingPrefix = 'express-openapi';

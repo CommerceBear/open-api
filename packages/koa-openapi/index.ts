@@ -6,7 +6,7 @@ import OpenAPIFramework, {
   OpenAPIFrameworkConstructorArgs,
   OpenAPIFrameworkOperationContext,
   OpenAPIFrameworkPathContext,
-} from 'openapi-framework';
+} from '@commercebear/openapi-framework';
 
 const loggingPrefix = 'koa-openapi';
 

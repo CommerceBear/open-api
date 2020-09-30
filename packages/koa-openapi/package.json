@@ -1,5 +1,5 @@
 {
-  "name": "koa-openapi",
+  "name": "@commercebear/koa-openapi",
   "version": "7.0.1",
   "description": "An unopinionated OpenAPI framework for koa",
   "main": "./dist/index.js",
@@ -13,7 +13,10 @@
     "test-watch": "../../bin/tsc && ../../bin/mocha --watch-extensions ts -w",
     "test": "../../bin/mocha"
   },
-  "repository": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/koa-openapi",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "https://github.com/commercebear/open-api",
   "keywords": [
     "openapi",
     "swagger",
@@ -22,11 +25,11 @@
   "author": "Joseph Spencer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kogosoftwarellc/open-api/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Akoa-openapi"
+    "url": "https://github.com/commercebear/open-api/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3Akoa-openapi"
   },
-  "homepage": "https://github.com/kogosoftwarellc/open-api/tree/master/packages/koa-openapi#readme",
+  "homepage": "https://github.com/commercebear/open-api/tree/master/packages/koa-openapi#readme",
   "dependencies": {
-    "openapi-framework": "^7.0.1"
+    "@commercebear/openapi-framework": "^7.0.1"
   },
   "devDependencies": {
     "@types/koa": "2.11.3",

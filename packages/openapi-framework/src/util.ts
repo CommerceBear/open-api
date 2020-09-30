@@ -1,4 +1,4 @@
-import { OpenAPIV3 } from 'openapi-types';
+import { OpenAPIV3 } from '@commercebear/openapi-types';
 import { Logger } from 'ts-log';
 import { URL } from 'url';
 import BasePath from './BasePath';

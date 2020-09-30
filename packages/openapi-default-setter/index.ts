@@ -1,4 +1,4 @@
-import { OpenAPI, OpenAPIV2, OpenAPIV3 } from 'openapi-types';
+import { OpenAPI, OpenAPIV2, OpenAPIV3 } from '@commercebear/openapi-types';
 interface DefaultMap {
   [paramName: string]: any;
 }

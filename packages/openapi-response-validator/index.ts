@@ -1,5 +1,5 @@
 import * as Ajv from 'ajv';
-import { IJsonSchema, OpenAPIV2, OpenAPIV3 } from 'openapi-types';
+import { IJsonSchema, OpenAPIV2, OpenAPIV3 } from '@commercebear/openapi-types';
 
 const LOCAL_DEFINITION_REGEX = /^#\/([^\/]+)\/([^\/]+)$/;
 
