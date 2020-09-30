@@ -1,6 +1,5 @@
 module.exports = {
   args: {
-    enableObjectCoercion: true,
     parameters: [
       {
         in: 'query',
@@ -9,45 +8,62 @@ module.exports = {
           items: {
             schema: {
               type: 'object',
-              // optional format property not passed meaning default coercer will kick in
+              properties: {
+                number: { type: 'number' },
+                string: { type: 'string' },
+              },
             },
           },
         },
-        name: 'include',
+        name: 'arrayOfObjects',
         required: false,
       },
       {
         in: 'query',
         schema: {
           type: 'object',
-          // optional format property not passed meaning the default coercer will kick in
+          properties: {
+            number: { type: 'number' },
+            string: { type: 'string' },
+          },
         },
-        name: 'query',
+        name: 'object',
         required: false,
-        // optional format property not passed meaning the default coercer will kick in
+      },
+      {
+        in: 'query',
+        schema: {
+          type: 'object',
+          additionalProperties: {
+            type: 'number',
+          },
+        },
+        name: 'additionalProperties',
+        required: false,
       },
     ],
   },
 
   request: {
     query: {
-      include: [
-        JSON.stringify({ association: 'lines', include: ['status'] }),
-        JSON.stringify({ association: 'people', include: ['hairColor'] }),
+      arrayOfObjects: [
+        { number: '1', string: '1' },
+        { number: '2', string: '2' },
       ],
-      query: JSON.stringify({ where: { $status: 2 } }),
+      object: { number: '3', string: '3' },
+      additionalProperties: {
+        width: '1',
+        length: '2',
+      },
     },
   },
 
   query: {
-    include: [
-      { association: 'lines', include: ['status'] },
-      { association: 'people', include: ['hairColor'] },
+    arrayOfObjects: [
+      { number: 1, string: '1' },
+      { number: 2, string: '2' },
     ],
-    query: {
-      where: {
-        $status: 2,
-      },
-    },
+    object: { number: 3, string: '3' },
+    additionalProperties: { width: 1, length: 2 },
   },
 };
